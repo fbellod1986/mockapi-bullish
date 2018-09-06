@@ -1,26 +1,3 @@
-# JSON Server [![](https://travis-ci.org/typicode/json-server.svg?branch=master)](https://travis-ci.org/typicode/json-server) [![](https://badge.fury.io/js/json-server.svg)](http://badge.fury.io/js/json-server)
-
-Get a full fake REST API with __zero coding__ in __less than 30 seconds__ (seriously)
-
-Created with <3 for front-end developers who need a quick back-end for prototyping and mocking.
-
-* [Egghead.io free video tutorial - Creating demo APIs with json-server](https://egghead.io/lessons/nodejs-creating-demo-apis-with-json-server)
-* [JSONPlaceholder - Live running version](http://jsonplaceholder.typicode.com)
-
-See also:
-* :dog: [husky - Git hooks made easy](https://github.com/typicode/husky)
-* :hotel: [hotel - developer tool with local .localhost domain and https out of the box](https://github.com/typicode/hotel)
-* :atom_symbol: [react-fake-props - generate fake props for your React tests (Jest, Enzyme, ...)](https://github.com/typicode/react-fake-props)
-* :heartpulse: [Patreon page - if you want to support JSON Server or my other projects](https://www.patreon.com/typicode)
-
-## Sponsors
-
-<a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">
-  <img src="https://i.imgur.com/2LDiENb.png" height="60px">
-</a>
-
-[[Become a sponsor]](https://patreon.com/typicode)
-
 ## Table of contents
 
 <details>
@@ -590,7 +567,3 @@ You can deploy JSON Server. For example, [JSONPlaceholder](http://jsonplaceholde
 * [JSON Server GUI](https://github.com/naholyr/json-server-gui)
 * [JSON file generator](https://github.com/dfsq/json-server-init)
 * [JSON Server extension](https://github.com/maty21/json-server-extension)
-
-## License
-
-MIT - [Typicode](https://github.com/typicode) - [Patreon](https://www.patreon.com/typicode)
