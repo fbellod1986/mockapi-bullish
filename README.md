@@ -41,7 +41,6 @@
   * [Video](#video)
   * [Articles](#articles)
   * [Third-party tools](#third-party-tools)
-- [License](#license)
 
 <!-- tocstop -->
 
