@@ -88,42 +88,42 @@ You'll get
 
 ```json
 {
-  fund_name: {},
-  fund: {},
-  order: {},
-  trade_history: {},
-  lp_breakdown: {}
+  "fund_name": {},
+  "fund": {},
+  "order": {},
+  "trade_history": {},
+  "lp_breakdown": {}
 }
 {
-  dashboard: {},
-  order: {},
-  transaction_history: {},
-  report_lp: {}
+  "dashboard": {},
+  "order": {},
+  "transaction_history": {},
+  "report_lp": {}
 }
 {
-  reports_history: {}
+  "reports_history": {}
 }
 {
-  limited_partners: {},
-  companies_lp: {}
+  "limited_partners": {},
+  "companies_lp": {}
 }
 {
-  profile: {},
-  personal_info: {},
-  entity_information: {},
-  exchange_settings: {},
-  general_settings: {}
+  "profile": {},
+  "personal_info": {},
+  "entity_information": {},
+  "exchange_settings": {},
+  "general_settings": {}
 }
 {
-  profile: {},
-  personal_info: {},
-  employement_information: {},
-  source_of_funds: {},
-  banking_informations: {}
+  "profile": {},
+  "personal_info": {},
+  "employement_information": {},
+  "source_of_funds": {},
+  "banking_informations": {}
 }
 {
-  profile_list: {},
-  table_of_content: {}
+  "profile_list": {},
+  "table_of_content": {}
 }
 ```
 ## Routes
