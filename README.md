@@ -59,12 +59,12 @@ Create a `db.json` file with some data
 ```json
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "bullsi" }
+    { "id": 1, "title": "json-server", "author": "bullish" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { "name": "bullish" }
 }
 ```
 
