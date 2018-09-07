@@ -26,16 +26,16 @@
                 "fund_capital_name": "Francisco Capital LLC",
                 "fund_profile": [{
                     "fm_name": "Francisco Saéz",
-                    "name_fund": "FUND I",
                     "fm_img": "assets/images/profile_fm.jpg",
-                    "occupation_fund": "Chief"
+                    "fund_name": "FUND I",
+                    "fund_occupation": "Chief"
                 }],
                 "lp_profile": [{
                     "lp_capital_name": "Franco Bello LP",
                     "lp_name": "Franco Bello",
                     "lp_fund": "FUND I",
-                    "img_lp": "assets/images/profile_lp.jpg",
-                    "occupation_lp": "Developer"
+                    "lp_img": "assets/images/profile_lp.jpg",
+                    "lp_occupation": "Developer"
                 }]
             }]
         },
