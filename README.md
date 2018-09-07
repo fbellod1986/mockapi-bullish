@@ -59,7 +59,7 @@ Create a `db.json` file with some data
 ```json
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    { "id": 1, "title": "json-server", "author": "bullsi" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
@@ -74,19 +74,58 @@ Start JSON Server
 json-server --watch db.json
 ```
 
-Now if you go to [http://localhost:3000/posts/1](http://localhost:3000/posts/1), you'll get
+Now if you go to: 
+
+- http://localhost:3000/fund_managment
+- http://localhost:3000/lp_dashboard
+- http://localhost:3000/reports
+- http://localhost:3000/lp_management
+- http://localhost:3000/fm_profile
+- http://localhost:3000/lp_profile
+- http://localhost:3000/lp_profile_list_fm
+
+You'll get
 
 ```json
-{ "id": 1, "title": "json-server", "author": "typicode" }
+{
+  fund_name: {},
+  fund: {},
+  order: {},
+  trade_history: {},
+  lp_breakdown: {}
+}
+{
+  dashboard: {},
+  order: {},
+  transaction_history: {},
+  report_lp: {}
+}
+{
+  reports_history: {}
+}
+{
+  limited_partners: {},
+  companies_lp: {}
+}
+{
+  profile: {},
+  personal_info: {},
+  entity_information: {},
+  exchange_settings: {},
+  general_settings: {}
+}
+{
+  profile: {},
+  personal_info: {},
+  employement_information: {},
+  source_of_funds: {},
+  banking_informations: {}
+}
+{
+  profile_list: {},
+  table_of_content: {}
+}
 ```
-
-Also when doing requests, it's good to know that:
-
-- If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to `db.json` using [lowdb](https://github.com/typicode/lowdb).
-- Your request body JSON should be object enclosed, just like the GET output. (for example `{"name": "Foobar"}`)
-- Id values are not mutable. Any `id` value in the body of your PUT or PATCH request will be ignored. Only a value set in a POST request will be respected, but only if not already taken.
-- A POST, PUT or PATCH request should include a `Content-Type: application/json` header to use the JSON in the request body. Otherwise it will result in a 200 OK but without changes being made to the data.
-
 ## Routes
 
 Based on the previous `db.json` file, here are all the default routes. You can also add [other routes](#add-custom-routes) using `--routes`.
