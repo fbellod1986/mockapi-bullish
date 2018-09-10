@@ -1,56 +1,54 @@
 {
     "fund_managment": {
-        "fund_name": {
+        "fund": {
+            "name": "nombre fondo",
+            "entity_name": "Francisco Capital LLC",
             "exchanges": [{
-                    "exchange": "20.000",
+                    "daily_balance": "20.000",
                     "day": "Today",
-                    "percent": "80%",
-                    "money": "BTC"
+                    "time_var": "80%",
+                    "uuid": "nada"
                 },
                 {
-                    "exchange": "40.000",
+                    "daily_balance": "40.000",
                     "day": "Yesterday",
                     "percent": "90%",
-                    "money": "ETH"
+                    "uuid": "nada"
                 },
                 {
-                    "exchange": "50.000",
+                    "daily_balance": "50.000",
                     "day": "Day",
                     "percent": "87%",
-                    "money": "DASH"
+                    "uuid": "nada"
+                }
+            ],
+            "fm": [{
+                "name": "Francisco Saéz",
+                "profile_img": "assets/images/profile_fm.jpg",
+                "title": "Chief of Investments"
+            }],
+            "lps": [{
+                    "name": "Franco Bello",
+                    "profile_imag": "assets/images/profile_lp.jpg",
+                    "title": "Developer"
+                },
+                {
+                    "name": "Franco Bello",
+                    "profile_imag": "assets/images/profile_lp.jpg",
+                    "title": "Developer"
                 }
             ]
         },
-        "fund": {
-            "fund_data": [{
-                "fund_capital_name": "Francisco Capital LLC",
-                "fund_profile": [{
-                    "fm_name": "Francisco Saéz",
-                    "fm_img": "assets/images/profile_fm.jpg",
-                    "fund_name": "FUND I",
-                    "fund_occupation": "Chief"
-                }],
-                "lp_profile": [{
-                    "lp_capital_name": "Franco Bello LP",
-                    "lp_name": "Franco Bello",
-                    "lp_fund": "FUND I",
-                    "lp_img": "assets/images/profile_lp.jpg",
-                    "lp_occupation": "Developer"
-                }]
-            }]
-        },
-        "order": {
-            "fund_orders": [{
-                "total_order_period": "2.347",
-                "percent_order_period": "48%",
-                "order_last_month": "4.347",
-                "percent_last_month": "60%",
-                "monthly_income_orders": "9.147",
-                "percent_income_orders": "22%"
-            }]
+        "dashboard_graphs": {
+            "total_order_period": "2.347",
+            "percent_order_period": "48%",
+            "order_last_month": "4.347",
+            "percent_last_month": "60%",
+            "monthly_income_orders": "9.147",
+            "percent_income_orders": "22%"
         },
         "trade_history": {
-            "trade": [{
+            "trades": [{
                     "date": "2018-05-10 23:31:59",
                     "pair": "TRX/BTC",
                     "type": "Buy",
@@ -78,7 +76,8 @@
                     "total": "0.12142526 BTC"
                 }
             ],
-            "daily": [{
+            "daily_balances": [{
+
                     "date": "Monday May 15th 2018",
                     "exchange2": "24%",
                     "exchange3": "34",
@@ -101,30 +100,85 @@
                 }
             ]
         },
-        "lp_breakdown": {
-            "partner": [{
-                    "name": "Samantha",
-                    "buy_in": "1000",
-                    "percent_fund": "24",
-                    "current_balance": "4000",
-                    "profit_loss": "1000"
-                },
-                {
-                    "name": "Francisco",
-                    "buy_in": "2000",
-                    "percent_fund": "34",
-                    "current_balance": "5000",
-                    "profit_loss": "3000"
-                },
-                {
-                    "name": "Franco",
-                    "buy_in": "4000",
-                    "percent_fund": "84",
-                    "current_balance": "1000",
-                    "profit_loss": "9000"
-                }
-            ]
-        }
+        "lps_breakdown": [{
+                "name": "Samantha",
+                "buy_in": "1000",
+                "fund_allocation": "24",
+                "current_balance": "4000",
+                "profit_loss": "1000"
+            },
+            {
+                "name": "Samantha",
+                "buy_in": "1000",
+                "fund_allocation": "24",
+                "current_balance": "4000",
+                "profit_loss": "1000"
+            },
+            {
+                "name": "Samantha",
+                "buy_in": "1000",
+                "fund_allocation": "24",
+                "current_balance": "4000",
+                "profit_loss": "1000"
+            }
+        ]
+    },
+    "lp_management": {
+        "lps": [{
+                "profile_img": "assets/images/a2.jpg",
+                "name": "Francisco Sáez",
+                "email": "fsaez@bullish.com",
+                "phone": "+432 955 908",
+                "fund_allocation": "%50",
+                "buy_in": "$100,000"
+            },
+            {
+                "profile_img": "assets/images/a2.jpg",
+                "name": "Francisco Sáez",
+                "email": "fsaez@bullish.com",
+                "phone": "+432 955 908",
+                "fund_allocation": "%50",
+                "buy_in": "$100,000"
+            },
+            {
+                "profile_img": "assets/images/a2.jpg",
+                "name": "Francisco Sáez",
+                "email": "fsaez@bullish.com",
+                "phone": "+432 955 908",
+                "fund_allocation": "%50",
+                "buy_in": "$100,000"
+            },
+            {
+                "profile_img": "assets/images/a2.jpg",
+                "name": "Francisco Sáez",
+                "email": "fsaez@bullish.com",
+                "phone": "+432 955 908",
+                "fund_allocation": "%50",
+                "buy_in": "$100,000"
+            }
+        ],
+        "lp_companies": [{
+                "name": "Tellus Institute",
+                "email": "tellus@mail.com",
+                "phone": "+789 111 222",
+                "fund_allocation": "%50",
+                "buy_in": "$100,000"
+            },
+            {
+                "name": "Tellus Institute",
+                "email": "tellus@mail.com",
+                "phone": "+789 111 222",
+                "fund_allocation": "%50",
+                "buy_in": "$100,000"
+            },
+            {
+                "name": "Tellus Institute",
+                "email": "tellus@mail.com",
+                "phone": "+789 111 222",
+                "fund_allocation": "%50",
+                "buy_in": "$100,000"
+            }
+        ]
     },
     "lp_dashboard": {
         "dashboard": {
@@ -196,250 +250,6 @@
                     "report_pdf": ""
                 }
             ]
-        }
-    },
-    "reports": {
-        "reports_history": {
-            "values": [{
-                    "created_on": "July 13th",
-                    "type_of_report": "14:00 hrs",
-                    "date_range": "5.000",
-                    "limited_partner": "FIAT"
-                },
-                {
-                    "created_on": "September 18th",
-                    "type_of_report": "13:00 hrs",
-                    "date_range": "6.000",
-                    "limited_partner": "FIAT"
-                },
-                {
-                    "created_on": "March 16th",
-                    "type_of_report": "15:00 hrs",
-                    "date_range": "7.000",
-                    "limited_partner": "FIAT"
-                }
-            ]
-        }
-    },
-    "lp_management": {
-        "limited_partners": {
-            "partner": [{
-                    "img": "assets/images/a2.jpg",
-                    "name": "Francisco Sáez",
-                    "email": "fsaez@bullish.com",
-                    "phone": "+432 955 908",
-                    "percent_fund": "%50"
-                },
-                {
-                    "img": "assets/images/a4.jpg",
-                    "name": "Claudio Castro",
-                    "email": "claudio@bullish.com",
-                    "phone": "+432 000 677",
-                    "percent_fund": "%40"
-                },
-                {
-                    "img": "assets/images/a7.jpg",
-                    "name": "Franco Bello",
-                    "email": "franco@bullish.com",
-                    "phone": "+456 987 543",
-                    "percent_fund": "%30"
-                },
-                {
-                    "img": "assets/images/a1.jpg",
-                    "name": "Ricardo Castillo",
-                    "email": "ricardo@bullish.com",
-                    "phone": "+789 111 222",
-                    "percent_fund": "%70"
-                }
-            ]
-        },
-        "companies_lp": {
-            "companies": [{
-                    "company_name": "Tellus Institute",
-                    "email": "tellus@mail.com",
-                    "phone": "+789 111 222"
-                },
-                {
-                    "company_name": "Bullish",
-                    "email": "bullish@mail.com",
-                    "phone": "+789 444 111"
-                },
-                {
-                    "company_name": "Enterprise",
-                    "email": "enterprice@mail.com",
-                    "phone": "+111 666 555"
-                }
-            ]
-        }
-    },
-    "fm_profile": {
-        "profile": {
-            "data_fm": [{
-                "img": "assets/images/a2.jpg",
-                "name_fm": "Francisco Saez",
-                "email": "fsaez@bullish.com",
-                "phone": "+432 955 908"
-            }]
-        },
-        "personal_info": {
-            "info": [{
-                "fm_info": "Tellus Institute"
-            }]
-        },
-        "entity_information": {
-            "entity": [{
-                "company_name": "Bullish",
-                "address": "San Francisco Street",
-                "tax_id": "456456456",
-                "website": "www.bullish.com",
-                "email": "bullish@bullish.com",
-                "img": "assets/images/favicon.png"
-            }]
-        },
-        "exchange_settings": {
-            "exchange": [{
-                "fm_exchange": "Tellus Institute"
-            }]
-        },
-        "general_settings": {
-            "general": [{
-                "notifications": "Bullish Notifications",
-                "users": "David Williams",
-                "password_2fa": "43564571"
-            }]
-        }
-    },
-    "lp_profile": {
-        "profile": {
-            "data_lp": [{
-                "img": "assets/images/a1.jpg",
-                "name_lm": "Franco Bello",
-                "email": "franco@bullish.com",
-                "phone": "+222 333 444"
-            }]
-        },
-        "personal_info": {
-            "info": [{
-                "name_lastname": "Tellus Institute",
-                "document_type": [{
-                    "identity_card": "true",
-                    "passport": "true",
-                    "driver_license": "false"
-                }],
-                "identity_number_registration": "Tellus Institute",
-                "validty_identity_date": [{
-                    "date_issue": "Tellus Institute",
-                    "expiration-date": "Tellus Institute"
-                }],
-                "residence_address": "Tellus Institute",
-                "citizenship": "Tellus Institute",
-                "registered_email": "Tellus Institute",
-                "phone_number": "Tellus Institute",
-                "tax_role_number": "Tellus Institute"
-            }]
-        },
-        "employement_information": {
-            "entity": [{
-                "employement_status": [{
-                    "employee": "true",
-                    "independent_worker": "true",
-                    "unemployed": "false"
-                }],
-                "employer_name": "Tellus Institute",
-                "business_area": "Tellus Institute",
-                "employer_address": "Tellus Institute",
-                "occupation": "Tellus Institute",
-                "position_company": "Tellus Institute",
-                "long_employed_time": [{
-                    "months": "true",
-                    "years": "false"
-                }],
-                "start_day_independent_date": "Tellus Institute",
-                "type_of_business": "Tellus Institute",
-                "tax_registration_number": "Tellus Institute"
-            }]
-        },
-        "source_of_funds": {
-            "source": [{
-                "origin_funds_legal": [{
-                    "salary": "true",
-                    "savings": "false",
-                    "business_income": "true",
-                    "rental_income": "true",
-                    "return_of_investment": "true",
-                    "loan": "true",
-                    "other": "true"
-                }],
-                "other": "Tellus Institute",
-                "chilean_peso_clp": [{
-                    "less_1000000": "true",
-                    "from_1001000_5000000": "false",
-                    "from_5001000_10000000": "true",
-                    "from_10001000_25000000": "true",
-                    "from_25001000_50.000.000": "true",
-                    "from_50001000_100000000": "true",
-                    "over_100000000": "true"
-                }],
-                "euro_eur": [{
-                    "less_1000": "true",
-                    "from_1001_5000": "false",
-                    "from_5001_10000": "true",
-                    "from_10001_25000": "true",
-                    "from_25001_50000000000": "true",
-                    "from_50001_100000": "true",
-                    "over_100000": "true"
-                }],
-                "real_brl": [{
-                    "less_than_5000": "true",
-                    "from_5001_25000": "false",
-                    "from_25001_50000": "true",
-                    "from_50001_100000": "true",
-                    "from_100001_250000": "true",
-                    "from_250001_500000": "true",
-                    "over_500000": "true"
-                }],
-                "peso_colombiano_cop": [{
-                    "less_than_5000000": "true",
-                    "from_5000001_25000000": "false",
-                    "from_25000001_50000000": "true",
-                    "from_50000001_125000000": "true",
-                    "from_125000001_250000000": "true",
-                    "from_250000001_500000000": "true",
-                    "over_500000000": "true"
-                }],
-                "deposit_currency": [{
-                    "mined": "true",
-                    "bought": "false"
-                }],
-                "planning_remove": [{
-                    "other_exchange": "true",
-                    "my_own_cryptocurrency": "false",
-                    "other": "false"
-                }],
-                "other_only": "Bullish Notifications"
-            }]
-        },
-        "banking_informations": {
-            "origin_tender_money": [{
-                "yes": "Bullish Notifications",
-                "no": "David Williams"
-            }],
-            "name_of_bank": "Bullish Notifications",
-            "bank_branch_country": "Bullish Notifications",
-            "bank_account_number": "Bullish Notifications",
-            "bank_address": "Bullish Notifications",
-            "name_of_bank_2": "Bullish Notifications",
-            "bank_branch_country_2": "Bullish Notifications",
-            "bank_account_number_2": "Bullish Notifications",
-            "bank_address_2": "Bullish Notifications",
-            "name_of_bank_3": "Bullish Notifications",
-            "bank_branch_country_3": "Bullish Notifications",
-            "bank_account_number_3": "Bullish Notifications",
-            "bank_address_3": "Bullish Notifications",
-            "name_of_bank_4": "Bullish Notifications",
-            "bank_branch_country_4": "Bullish Notifications",
-            "bank_account_number_4": "Bullish Notifications",
-            "bank_address_4": "Bullish Notifications"
         }
     },
     "lp_profile_list_fm": {
@@ -518,6 +328,29 @@
                 "performance_fee:": "performance_fee",
                 "every:": "every"
             }]
+        }
+    },
+    "reports": {
+        "reports_history": {
+            "values": [{
+                    "date": "July 13th",
+                    "type": "14:00 hrs",
+                    "date_range": "5.000",
+                    "limited_partner": "FIAT"
+                },
+                {
+                    "date": "July 13th",
+                    "type": "14:00 hrs",
+                    "date_range": "5.000",
+                    "limited_partner": "FIAT"
+                },
+                {
+                    "date": "July 13th",
+                    "type": "14:00 hrs",
+                    "date_range": "5.000",
+                    "limited_partner": "FIAT"
+                }
+            ]
         }
     }
 }
