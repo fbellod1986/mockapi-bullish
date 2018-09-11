@@ -1,8 +1,10 @@
 {
     "fund_managment": {
         "fund": {
-            "name": "nombre fondo",
-            "entity_name": "Francisco Capital LLC",
+            "information_fund": [{
+                "name": "FUND I",
+                "entity_name": "Francisco Capital LLC"
+            }],
             "exchanges": [{
                     "daily_balance": "20.000",
                     "day": "Today",
@@ -12,13 +14,13 @@
                 {
                     "daily_balance": "40.000",
                     "day": "Yesterday",
-                    "percent": "90%",
+                    "time_var": "90%",
                     "uuid": "nada"
                 },
                 {
                     "daily_balance": "50.000",
                     "day": "Day",
-                    "percent": "87%",
+                    "time_var": "87%",
                     "uuid": "nada"
                 }
             ],
@@ -28,16 +30,10 @@
                 "title": "Chief of Investments"
             }],
             "lps": [{
-                    "name": "Franco Bello",
-                    "profile_imag": "assets/images/profile_lp.jpg",
-                    "title": "Developer"
-                },
-                {
-                    "name": "Franco Bello",
-                    "profile_imag": "assets/images/profile_lp.jpg",
-                    "title": "Developer"
-                }
-            ]
+                "name": "Franco Bello",
+                "profile_img": "assets/images/profile_lp.jpg",
+                "title": "Developer"
+            }]
         },
         "dashboard_graphs": {
             "total_order_period": "2.347",
@@ -121,236 +117,236 @@
                 "current_balance": "4000",
                 "profit_loss": "1000"
             }
-        ]
-    },
-    "lp_management": {
-        "lps": [{
-                "profile_img": "assets/images/a2.jpg",
-                "name": "Francisco Sáez",
-                "email": "fsaez@bullish.com",
-                "phone": "+432 955 908",
-                "fund_allocation": "%50",
-                "buy_in": "$100,000"
-            },
-            {
-                "profile_img": "assets/images/a2.jpg",
-                "name": "Francisco Sáez",
-                "email": "fsaez@bullish.com",
-                "phone": "+432 955 908",
-                "fund_allocation": "%50",
-                "buy_in": "$100,000"
-            },
-            {
-                "profile_img": "assets/images/a2.jpg",
-                "name": "Francisco Sáez",
-                "email": "fsaez@bullish.com",
-                "phone": "+432 955 908",
-                "fund_allocation": "%50",
-                "buy_in": "$100,000"
-            },
-            {
-                "profile_img": "assets/images/a2.jpg",
-                "name": "Francisco Sáez",
-                "email": "fsaez@bullish.com",
-                "phone": "+432 955 908",
-                "fund_allocation": "%50",
-                "buy_in": "$100,000"
-            }
         ],
-        "lp_companies": [{
-                "name": "Tellus Institute",
-                "email": "tellus@mail.com",
-                "phone": "+789 111 222",
-                "fund_allocation": "%50",
-                "buy_in": "$100,000"
+        "lp_management": {
+            "lps": [{
+                    "profile_img": "assets/images/a2.jpg",
+                    "name": "Francisco Sáez",
+                    "email": "fsaez@bullish.com",
+                    "phone": "+432 955 908",
+                    "fund_allocation": "%50",
+                    "buy_in": "$100,000"
+                },
+                {
+                    "profile_img": "assets/images/a2.jpg",
+                    "name": "Francisco Sáez",
+                    "email": "fsaez@bullish.com",
+                    "phone": "+432 955 908",
+                    "fund_allocation": "%50",
+                    "buy_in": "$100,000"
+                },
+                {
+                    "profile_img": "assets/images/a2.jpg",
+                    "name": "Francisco Sáez",
+                    "email": "fsaez@bullish.com",
+                    "phone": "+432 955 908",
+                    "fund_allocation": "%50",
+                    "buy_in": "$100,000"
+                },
+                {
+                    "profile_img": "assets/images/a2.jpg",
+                    "name": "Francisco Sáez",
+                    "email": "fsaez@bullish.com",
+                    "phone": "+432 955 908",
+                    "fund_allocation": "%50",
+                    "buy_in": "$100,000"
+                }
+            ],
+            "lp_companies": [{
+                    "name": "Tellus Institute",
+                    "email": "tellus@mail.com",
+                    "phone": "+789 111 222",
+                    "fund_allocation": "%50",
+                    "buy_in": "$100,000"
+                },
+                {
+                    "name": "Tellus Institute",
+                    "email": "tellus@mail.com",
+                    "phone": "+789 111 222",
+                    "fund_allocation": "%50",
+                    "buy_in": "$100,000"
+                },
+                {
+                    "name": "Tellus Institute",
+                    "email": "tellus@mail.com",
+                    "phone": "+789 111 222",
+                    "fund_allocation": "%50",
+                    "buy_in": "$100,000"
+                }
+            ]
+        },
+        "lp_dashboard": {
+            "dashboard": {
+                "values": [{
+                        "value": "10.000"
+                    },
+                    {
+                        "value": "12.000"
+                    },
+                    {
+                        "value": "2.000"
+                    }
+                ]
             },
-            {
-                "name": "Tellus Institute",
-                "email": "tellus@mail.com",
-                "phone": "+789 111 222",
-                "fund_allocation": "%50",
-                "buy_in": "$100,000"
+            "order": {
+                "lp_orders": [{
+                    "total_order_period": "1.347",
+                    "percent_order_period": "38%",
+                    "order_last_month": "2.347",
+                    "percent_last_month": "50%",
+                    "monthly_income_orders": "7.147",
+                    "percent_income_orders": "12%"
+                }]
             },
-            {
-                "name": "Tellus Institute",
-                "email": "tellus@mail.com",
-                "phone": "+789 111 222",
-                "fund_allocation": "%50",
-                "buy_in": "$100,000"
+            "transaction_history": {
+                "transaction": [{
+                        "date": "July 13th",
+                        "time": "14:00 hrs",
+                        "amount": "4.000",
+                        "currency": "FIAT",
+                        "type": "Deposit",
+                        "invoce": ""
+                    },
+                    {
+                        "date": "September 14th",
+                        "time": "13:00 hrs",
+                        "amount": "5.000",
+                        "currency": "FIAT",
+                        "type": "Deposit",
+                        "invoce": ""
+                    },
+                    {
+                        "date": "October 15th",
+                        "time": "15:00 hrs",
+                        "amount": "7.000",
+                        "currency": "FIAT",
+                        "type": "Deposit",
+                        "invoce": ""
+                    }
+                ]
+            },
+            "report_lp": {
+                "reports": [{
+                        "date_created": "July 17th",
+                        "period": "July 4th - July 15th",
+                        "type": "Summary",
+                        "report_pdf": ""
+                    },
+                    {
+                        "date_created": "May 15th",
+                        "period": "August 2th - September 4th",
+                        "type": "Summary",
+                        "report_pdf": ""
+                    },
+                    {
+                        "date_created": "June 18th",
+                        "period": "Febrary 5th - March 11th",
+                        "type": "Summary",
+                        "report_pdf": ""
+                    }
+                ]
             }
-        ]
-    },
-    "lp_dashboard": {
-        "dashboard": {
-            "values": [{
-                    "value": "10.000"
-                },
-                {
-                    "value": "12.000"
-                },
-                {
-                    "value": "2.000"
-                }
-            ]
         },
-        "order": {
-            "lp_orders": [{
-                "total_order_period": "1.347",
-                "percent_order_period": "38%",
-                "order_last_month": "2.347",
-                "percent_last_month": "50%",
-                "monthly_income_orders": "7.147",
-                "percent_income_orders": "12%"
-            }]
+        "lp_profile_list_fm": {
+            "profile_list": {
+                "data_lp_list": [{
+                    "img": "assets/images/a1.jpg",
+                    "name_lp": "Franco Bello",
+                    "email_lp": "franco@bullish.com",
+                    "phone_lp": "+222 333 444",
+                    "buy_in": "$14.000",
+                    "var_fee": "$1.900",
+                    "var_percent": "5%",
+                    "sales_in_current_month": "22.000",
+                    "page_visit": "42120321",
+                    "new_visit": "46.11%",
+                    "last_week": "432.021"
+                }],
+                "funds_lp": [{
+                        "fund": "Fund 1"
+                    },
+                    {
+                        "fund": "Fund 2"
+                    }
+                ]
+            },
+            "table_of_content": {
+                "transaction": [{
+                        "date": "July 13th",
+                        "time": "14:00 hrs",
+                        "amount": "5.000",
+                        "currency": "FIAT",
+                        "type": "Deposit1",
+                        "invoce": "document.pdf"
+                    },
+                    {
+                        "date": "June 11th",
+                        "time": "15:00 hrs",
+                        "amount": "7.000",
+                        "currency": "FIAT",
+                        "type": "Deposit2",
+                        "invoce": "document.pdf"
+                    },
+                    {
+                        "date": "September 12th",
+                        "time": "10:00 hrs",
+                        "amount": "1.000",
+                        "currency": "FIAT",
+                        "type": "Deposit3",
+                        "invoce": "document.pdf"
+                    }
+                ],
+                "report_lp": [{
+                        "date_created": "Thursday May 15th 2018",
+                        "period": "12%",
+                        "type": "56",
+                        "report_document": "document.pdf"
+                    },
+                    {
+                        "date_created": "Monday Sept 12th 2018",
+                        "period": "32%",
+                        "type": "34",
+                        "report_document": "document.pdf"
+                    },
+                    {
+                        "date_created": "Friday Jun 11th 2018",
+                        "period": "21%",
+                        "type": "65",
+                        "report_document": "document.pdf"
+                    }
+                ],
+                "personal_info": [{
+                    "personal_info": "info"
+                }],
+                "settings": [{
+                    "management_fee": "management_fee",
+                    "performance_fee:": "performance_fee",
+                    "every:": "every"
+                }]
+            }
         },
-        "transaction_history": {
-            "transaction": [{
-                    "date": "July 13th",
-                    "time": "14:00 hrs",
-                    "amount": "4.000",
-                    "currency": "FIAT",
-                    "type": "Deposit",
-                    "invoce": ""
-                },
-                {
-                    "date": "September 14th",
-                    "time": "13:00 hrs",
-                    "amount": "5.000",
-                    "currency": "FIAT",
-                    "type": "Deposit",
-                    "invoce": ""
-                },
-                {
-                    "date": "October 15th",
-                    "time": "15:00 hrs",
-                    "amount": "7.000",
-                    "currency": "FIAT",
-                    "type": "Deposit",
-                    "invoce": ""
-                }
-            ]
-        },
-        "report_lp": {
-            "reports": [{
-                    "date_created": "July 17th",
-                    "period": "July 4th - July 15th",
-                    "type": "Summary",
-                    "report_pdf": ""
-                },
-                {
-                    "date_created": "May 15th",
-                    "period": "August 2th - September 4th",
-                    "type": "Summary",
-                    "report_pdf": ""
-                },
-                {
-                    "date_created": "June 18th",
-                    "period": "Febrary 5th - March 11th",
-                    "type": "Summary",
-                    "report_pdf": ""
-                }
-            ]
-        }
-    },
-    "lp_profile_list_fm": {
-        "profile_list": {
-            "data_lp_list": [{
-                "img": "assets/images/a1.jpg",
-                "name_lp": "Franco Bello",
-                "email_lp": "franco@bullish.com",
-                "phone_lp": "+222 333 444",
-                "buy_in": "$14.000",
-                "var_fee": "$1.900",
-                "var_percent": "5%",
-                "sales_in_current_month": "22.000",
-                "page_visit": "42120321",
-                "new_visit": "46.11%",
-                "last_week": "432.021"
-            }],
-            "funds_lp": [{
-                    "fund": "Fund 1"
-                },
-                {
-                    "fund": "Fund 2"
-                }
-            ]
-        },
-        "table_of_content": {
-            "transaction": [{
-                    "date": "July 13th",
-                    "time": "14:00 hrs",
-                    "amount": "5.000",
-                    "currency": "FIAT",
-                    "type": "Deposit1",
-                    "invoce": "document.pdf"
-                },
-                {
-                    "date": "June 11th",
-                    "time": "15:00 hrs",
-                    "amount": "7.000",
-                    "currency": "FIAT",
-                    "type": "Deposit2",
-                    "invoce": "document.pdf"
-                },
-                {
-                    "date": "September 12th",
-                    "time": "10:00 hrs",
-                    "amount": "1.000",
-                    "currency": "FIAT",
-                    "type": "Deposit3",
-                    "invoce": "document.pdf"
-                }
-            ],
-            "report_lp": [{
-                    "date_created": "Thursday May 15th 2018",
-                    "period": "12%",
-                    "type": "56",
-                    "report_document": "document.pdf"
-                },
-                {
-                    "date_created": "Monday Sept 12th 2018",
-                    "period": "32%",
-                    "type": "34",
-                    "report_document": "document.pdf"
-                },
-                {
-                    "date_created": "Friday Jun 11th 2018",
-                    "period": "21%",
-                    "type": "65",
-                    "report_document": "document.pdf"
-                }
-            ],
-            "personal_info": [{
-                "personal_info": "info"
-            }],
-            "settings": [{
-                "management_fee": "management_fee",
-                "performance_fee:": "performance_fee",
-                "every:": "every"
-            }]
-        }
-    },
-    "reports": {
-        "reports_history": {
-            "values": [{
-                    "date": "July 13th",
-                    "type": "14:00 hrs",
-                    "date_range": "5.000",
-                    "limited_partner": "FIAT"
-                },
-                {
-                    "date": "July 13th",
-                    "type": "14:00 hrs",
-                    "date_range": "5.000",
-                    "limited_partner": "FIAT"
-                },
-                {
-                    "date": "July 13th",
-                    "type": "14:00 hrs",
-                    "date_range": "5.000",
-                    "limited_partner": "FIAT"
-                }
-            ]
+        "reports": {
+            "reports_history": {
+                "values": [{
+                        "date": "July 13th",
+                        "type": "14:00 hrs",
+                        "date_range": "5.000",
+                        "limited_partner": "FIAT"
+                    },
+                    {
+                        "date": "July 13th",
+                        "type": "14:00 hrs",
+                        "date_range": "5.000",
+                        "limited_partner": "FIAT"
+                    },
+                    {
+                        "date": "July 13th",
+                        "type": "14:00 hrs",
+                        "date_range": "5.000",
+                        "limited_partner": "FIAT"
+                    }
+                ]
+            }
         }
     }
 }
